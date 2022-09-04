@@ -575,7 +575,6 @@ border:solid 5px black;
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 25rem;
   background-color: white;
   border-top: solid black 3px;
 }
@@ -588,6 +587,14 @@ border:solid 5px black;
   margin-top: 5rem;
   background-color: white;
   border-top: solid black 3px;
+}
+.info2{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 15rem;
+  margin-top: 5rem;
+  background-color: white;
 }
 .data1{
   width: 50%;
@@ -628,3 +635,28 @@ border:solid 5px black;
   border-top:2px solid rgba(0, 0, 0, 0.315);
   height: 3px;
 }
+
+
+.inputs{
+  height: 2rem;
+  width: 15rem;
+  border-bottom: 2px solid rgb(0, 0, 0);
+  border-top: none;
+  border-left:none ;
+  border-right: none;
+}
+input:focus{
+  border-bottom: 2px solid rgb(0, 0, 0);
+  border-top: none;
+  border-left:none ;
+  border-right: none;
+}
+.inputmessage{
+  height: 5rem;
+  width: 15rem;
+  border:solid 2px black;
+  padding: 12px 12px;
+  box-sizing: border-box;
+}
+
+

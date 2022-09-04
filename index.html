@@ -8,9 +8,12 @@
         <title>MARKETING SERVICES</title>
     </head>
     <body>
-  
-         
+
+    
+   
+      
 <section class="section1" id="one">
+  
     <div class="img2">
         <img src="https://images.unsplash.com/photo-1589159812824-9d955325fe94?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" 
         alt="" class="img3a">
@@ -244,9 +247,39 @@
     <div style="position: relative;  width: 100%;height: 5rem;">
     <div class="logo2">
       <img src="https://res.cloudinary.com/luxuryp/images/w_960,c_limit,f_auto,q_auto/eksqbks3aelreidg6ndq/gatien-salaun_branding_beige-wordmark_rgb-2" 
-      class="logoimg">            
+      class="logoimg">   
+      <h2>Contact Us</h2>         
   </div>
 </div>
+<form onsubmit="alerta()">
+  <div class="info2">
+    <div class="data1">
+      
+      <div class="email">
+        <h2>Your Name</h2>
+        <input type="text"  class="inputs" name="name" id="name" required maxlength="45">
+      </div>
+      <div class="phone">
+        <h2>Your Email </h2>
+        <input type="email"  class="inputs" name="email" id="email" required maxlength="45">
+      </div>
+      <div>
+      
+    </div>
+    </div>
+    <div class="data2">
+      <div class="direction">
+        <h2>Your Phone number</h2>
+        <input type="text"  class="inputs"  name="phone" id="phone" required maxlength="45">
+      </div>
+      <div class="open">
+        <h2>Message</h2>
+        <textarea type="text"  class="inputmessage"  name="message" id="message" required ></textarea>
+      </div>
+    </div>
+   </div>
+   <button>Submit</button>
+  </form>
    <div class="info">
     <div class="data1">
       <div class="email">
@@ -271,6 +304,11 @@
    </div>
   </div>
 
+  <script>
+   function alerta(){
+     alert('hola')
+   }
+  </script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script>
         $(document).ready(function(){
