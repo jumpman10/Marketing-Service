@@ -252,7 +252,7 @@
       <h2>Contact Us</h2>         
   </div>
 </div>
-<form onsubmit="alerta()" action="" method="post">
+<form onsubmit="alerta()" method="dialog" id="myForm">
   <div class="info2">
     <div class="data1">
       
@@ -320,7 +320,7 @@
   <script>
    function alerta(){
      alert('Thanks! Your message was sent')
-     reset()
+     document.getElementById("myForm").reset();
    }
   </script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
