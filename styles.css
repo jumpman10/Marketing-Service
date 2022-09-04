@@ -568,7 +568,6 @@ border:solid 5px black;
   .imgsocial{
     position: absolute;
   height:100vh;
-  border-left:solid 5px black;
   object-fit: cover;
   width: 539px;
 }
@@ -613,4 +612,19 @@ border:solid 5px black;
   width: 290px;
   height: 33px;
   background-color: rgb(0, 0, 0);
+}
+.lines1{
+  position: absolute;
+  bottom: -340%;
+  width: 49%;
+  border-top:2px solid rgba(0, 0, 0, 0.315);
+  height: 3px;
+}
+.lines2{
+  position: absolute;
+  bottom: -340%;
+  right: 0;
+  width: 36%;
+  border-top:2px solid rgba(0, 0, 0, 0.315);
+  height: 3px;
 }
