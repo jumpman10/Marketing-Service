@@ -658,5 +658,11 @@ input:focus{
   padding: 12px 12px;
   box-sizing: border-box;
 }
-
+.buttons{
+  width: 8rem;
+  height: 3rem;
+  background-color: white;
+  border: 2px solid black;
+  color: black;
+}
 
